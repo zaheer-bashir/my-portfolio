@@ -7,9 +7,9 @@ export const DATA = {
   location: "San Francisco, CA",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
-    "Software Engineer turned Entrepreneur. I love building things and helping people. Very active on Twitter.",
+    "MERN Stack Developer at @AlphaBOLD | Expertise in React, Next.js, Node.js, and MongoDB",
   summary:
-    "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
+    "With over five years of industry experience, I have developed strong skills in technologies such as JavaScript, React, MongoDB, MySQL, and AWS. I have worked with tech companies in both Germany and the United States, gaining valuable cross-cultural experience.",
   avatarUrl: "/me.jpeg",
   skills: [
     "React",
@@ -44,26 +44,26 @@ export const DATA = {
 
   work: [
     {
-      company: "Atomic Finance",
-      href: "https://atomic.finance",
+      company: "Alpha Bold",
+      href: "https://www.alphabold.com/",
       badges: [],
-      location: "Remote",
-      title: "Bitcoin Protocol Engineer",
-      logoUrl: "/atomic.png",
-      start: "May 2021",
-      end: "Oct 2022",
+      location: "On Site",
+      title: "Solution Developer I",
+      logoUrl: "/alphabold.jpeg",
+      start: "March 2021",
+      end: "August 2024",
       description:
-        "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
+        "AlphaBOLD is an innovative technology consultant focusing on building solutions that overcome the modern challenges faced by our customers. With expertise and collective knowledge in various fields, we are uniquely placed to help our clients overcome the business challenges they face today, tomorrow, or in the future. We want to be your one-stop-shop for IT Consulting Services. We believe that by listening to your needs and by understanding your business challenges; we can apply our knowledge of technology to remove any obstacles that can slow you down.",
     },
     {
-      company: "Shopify",
+      company: "The XPertz",
       badges: [],
-      href: "https://shopify.com",
-      location: "Remote",
-      title: "Software Engineer",
-      logoUrl: "/shopify.svg",
-      start: "January 2021",
-      end: "April 2021",
+      href: "https://www.thexpertz.com/",
+      location: "On Site",
+      title: "Senior Web Developer",
+      logoUrl: "/thexpertz.jpeg",
+      start: "January 2019",
+      end: "March 2021",
       description:
         "Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes.",
     },
