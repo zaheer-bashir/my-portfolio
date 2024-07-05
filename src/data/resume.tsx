@@ -13,6 +13,7 @@ export const DATA = {
   avatarUrl: "/me.jpeg",
   skills: [
     "React",
+    "Redux",
     "Next.js",
     "Typescript",
     "Node.js",
@@ -20,6 +21,8 @@ export const DATA = {
     "MongoDb",
     "Tailwind CSS",
     "Styled Components",
+    "Git",
+    "Github",
     "CSS3",
     "HTML5",
   ],
