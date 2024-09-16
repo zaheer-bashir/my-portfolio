@@ -128,6 +128,14 @@ export const DATA = {
       credential_url: 'https://www.coursera.org/account/accomplishments/verify/99B9C5FG5JR5',
       logoUrl: '/facebook_logo.jpeg',
     },
+    {
+      title: 'React 2019: React, Redux, React-Router, Hooks and Auth0',
+      provider: 'Udemy',
+      issued: 'April 2019',
+      credential_id: 'UC-6VO9IQPF',
+      credential_url: 'https://www.udemy.com/certificate/UC-6VO9IQPF/',
+      logoUrl: '/udemy_logo.jpeg',
+    },
   ],
   education: [
     {

@@ -115,6 +115,7 @@ export default function Page() {
                 period={`${certification.issued}`}
                 subtitle={certification.provider}
                 credential_id={certification.credential_id}
+                credential_url={certification.credential_url}
               />
             </BlurFade>
           ))}

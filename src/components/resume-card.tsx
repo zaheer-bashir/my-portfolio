@@ -1,6 +1,7 @@
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
+import ShinyButton from "@/components/magicui/shiny-button";
 import { ChevronRightIcon } from "lucide-react";
 import Link from "next/link";
 
@@ -14,6 +15,7 @@ interface ResumeCardProps {
   period: string;
   description?: string;
   credential_id?: string;
+  credential_url?: string;
 }
 
 export const ResumeCard = ({
@@ -26,6 +28,7 @@ export const ResumeCard = ({
   period,
   description,
   credential_id,
+  credential_url,
 }: ResumeCardProps) => {
   return (
     <Link href={href || "#"} className="block cursor-pointer">
@@ -72,7 +75,14 @@ export const ResumeCard = ({
           { credential_id && <CardContent className="mt-2 text-xs sm:text-sm">
             Credential ID {credential_id}
           </CardContent>}
-          
+          {credential_url && (
+            <div className="z-10 flex mt-2">
+              <a href={credential_url} target="_blank" rel="noopener noreferrer">
+                <ShinyButton text="Show credential"></ShinyButton>
+              </a>
+            </div>
+          )}
+
         </div>
       </Card>
     </Link>
