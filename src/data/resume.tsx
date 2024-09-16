@@ -9,7 +9,7 @@ export const DATA = {
   description:
     "MERN Stack Developer at @AlphaBOLD | Expertise in React, Next.js, Node.js, and MongoDB",
   summary:
-    "With over five years of industry experience, I have developed strong skills in technologies such as JavaScript, React, MongoDB, MySQL, and AWS. I have worked with tech companies in both Germany and the United States, gaining valuable cross-cultural experience.",
+    "As an experienced technologist with over 5 years of industry experience, I have developed a strong skill set in various technologies including JavaScript, React, Next.js, Node.js and MongoDB. During this time, I have had the opportunity to work with both German and US-based tech companies, gaining valuable cross-cultural experience and exposure to different work environments. One of my key achievements in my career has been delivering high-quality projects on time and within budget while collaborating effectively with cross-functional teams. Overall, I am committed to delivering high-quality work and am always looking for ways to continue developing my skills and knowledge. I am excited about exploring new opportunities and challenges in the tech industry and am confident that my experience and skills will allow me to make a valuable contribution to any team.",
   avatarUrl: "/me.jpeg",
   skills: [
     "React",
@@ -93,6 +93,36 @@ export const DATA = {
       end: "December 2018",
       description:
         "Designed and implemented a robust password encryption and browser cookie storage system in Ruby on Rails. Leveraged the Yahoo finance API to develop the dividend.com equity screener",
+    },
+  ],
+  licenses_and_certifications: [
+    {
+      title: 'Programming with JavaScript',
+      provider: 'Meta',
+      issued: 'Jan 2024',
+      credential_id: 'NM8RGE3BRWMP',
+      credential_url: 'https://www.coursera.org/account/accomplishments/verify/NM8RGE3BRWMP'
+    },
+    {
+      title: 'React Basics',
+      provider: 'Meta',
+      issued: 'Jan 2024',
+      credential_id: 'YSM4WTH7A7C4',
+      credential_url: 'https://www.coursera.org/account/accomplishments/verify/YSM4WTH7A7C4'
+    },
+    {
+      title: 'Version Control',
+      provider: 'Meta',
+      issued: 'Jan 2024',
+      credential_id: '9YA8RDMXYX4X',
+      credential_url: 'https://www.coursera.org/account/accomplishments/verify/9YA8RDMXYX4X'
+    },
+    {
+      title: 'Introduction to Front-End Development',
+      provider: 'Meta',
+      issued: 'August 2023',
+      credential_id: '99B9C5FG5JR5',
+      credential_url: 'https://www.coursera.org/account/accomplishments/verify/99B9C5FG5JR5'
     },
   ],
   education: [
