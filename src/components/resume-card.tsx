@@ -13,6 +13,7 @@ interface ResumeCardProps {
   badges?: readonly string[];
   period: string;
   description?: string;
+  credential_id?: string;
 }
 
 export const ResumeCard = ({
@@ -24,6 +25,7 @@ export const ResumeCard = ({
   badges,
   period,
   description,
+  credential_id,
 }: ResumeCardProps) => {
   return (
     <Link href={href || "#"} className="block cursor-pointer">
@@ -67,6 +69,10 @@ export const ResumeCard = ({
           <CardContent className="mt-2 text-xs sm:text-sm">
             {description}
           </CardContent>
+          { credential_id && <CardContent className="mt-2 text-xs sm:text-sm">
+            Credential ID {credential_id}
+          </CardContent>}
+          
         </div>
       </Card>
     </Link>

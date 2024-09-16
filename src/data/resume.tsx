@@ -101,28 +101,32 @@ export const DATA = {
       provider: 'Meta',
       issued: 'Jan 2024',
       credential_id: 'NM8RGE3BRWMP',
-      credential_url: 'https://www.coursera.org/account/accomplishments/verify/NM8RGE3BRWMP'
+      credential_url: 'https://www.coursera.org/account/accomplishments/verify/NM8RGE3BRWMP',
+      logoUrl: '/facebook_logo.jpeg',
     },
     {
       title: 'React Basics',
       provider: 'Meta',
       issued: 'Jan 2024',
       credential_id: 'YSM4WTH7A7C4',
-      credential_url: 'https://www.coursera.org/account/accomplishments/verify/YSM4WTH7A7C4'
+      credential_url: 'https://www.coursera.org/account/accomplishments/verify/YSM4WTH7A7C4',
+      logoUrl: '/facebook_logo.jpeg',
     },
     {
       title: 'Version Control',
       provider: 'Meta',
       issued: 'Jan 2024',
       credential_id: '9YA8RDMXYX4X',
-      credential_url: 'https://www.coursera.org/account/accomplishments/verify/9YA8RDMXYX4X'
+      credential_url: 'https://www.coursera.org/account/accomplishments/verify/9YA8RDMXYX4X',
+      logoUrl: '/facebook_logo.jpeg',
     },
     {
       title: 'Introduction to Front-End Development',
       provider: 'Meta',
       issued: 'August 2023',
       credential_id: '99B9C5FG5JR5',
-      credential_url: 'https://www.coursera.org/account/accomplishments/verify/99B9C5FG5JR5'
+      credential_url: 'https://www.coursera.org/account/accomplishments/verify/99B9C5FG5JR5',
+      logoUrl: '/facebook_logo.jpeg',
     },
   ],
   education: [
