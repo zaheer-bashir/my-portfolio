@@ -157,6 +157,23 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Bayside Maids",
+      href: "https://bayside-maids.vercel.app/",
+      dates: "September 2024 - Present",
+      active: true,
+      description:
+        "Bayside Maids is a Next.js website designed for easy booking of cleaning services. It features a user-friendly interface, service listings, and customer reviews, providing a seamless experience for those seeking professional cleaning solutions. Live Link: https://bayside-maids.vercel.app",
+      technologies: ["Next JS", "Tailwind CSS", "JavaScript", "TypeScript", "React"],
+      links: [
+        {
+          type: "Website",
+          href: "https://bayside-maids.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/BaysideMaids.png",
+    },
+    {
       title: "Interstride",
       href: "https://interstride.com",
       dates: "June 2023 - Present",
