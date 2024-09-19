@@ -2,10 +2,10 @@ import { Icons } from "@/components/icons";
 
 export const DATA = {
   name: "Zaheer Bashir",
-  initials: "DV",
-  url: "https://dillion.io",
-  location: "San Francisco, CA",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  initials: "ZB",
+  url: "https://zaheer-bashir.vercel.app/",
+  location: "Lahore, Pakistan",
+  locationLink: "https://www.google.com/maps/place/lahore",
   description:
     "MERN Stack Developer at @AlphaBOLD | Expertise in React, Next.js, Node.js, and MongoDB",
   summary:
